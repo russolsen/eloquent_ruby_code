@@ -1,0 +1,25 @@
+= document - Simple document class to demonstrate how gems work.
+
+Homepage::  http://eloquentruby.com
+Author::    Russ Olsen
+Copyright:: (c) 2010 Russ Olsen
+License::   MIT
+
+= Document
+
+Document is a simple gem for representing a document, used as a learning tool to get
+the hang of doing gems.
+
+== Installing
+
+Document can be installed via RubyGems:
+
+  gem install document
+
+== Using Document
+
+Document just holds an author, a title and some content:
+  doc = Document.new( 'Eloquent Ruby', 'Russ Olsen', 'Some years ago...' )
+  puts doc.title
+  puts doc.author
+  puts doc.content
