@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+
+  <title>The Fellowship Of The Ring</title>
+  <author>J. R. R. Tolken</author>
+  <published>1954</published>
+
+  <chapter>
+     <title>A Long Expected Party</title>
+     <content>When Mr. Bilbo Bagins of Bag End...</content>
+  </chapter>
+
+  <chapter>
+     <title>A Shadow Of The Past</title>
+     <content>The talk did not die down...</content>
+  </chapter>
+
+  <!-- ect -->
+</document>

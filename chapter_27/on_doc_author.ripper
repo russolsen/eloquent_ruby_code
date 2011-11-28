@@ -1,0 +1,1 @@
+on_document_author { |author| puts author.text }

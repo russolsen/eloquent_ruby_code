@@ -1,0 +1,9 @@
+# Correct a common mistake
+
+on_path( '/document/author' ) do |author|
+  author.text = 'J.R.R. Tolkien' 
+end 
+
+# Print out the whole document when done
+
+after { |doc| puts doc }
