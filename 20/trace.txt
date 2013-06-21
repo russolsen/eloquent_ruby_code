@@ -1,0 +1,8 @@
+c-return in trace_func_demo.rb/5 set_trace_func Kernel
+line in trace_func_demo.rb/7  
+c-call in trace_func_demo.rb/7 require Kernel
+c-call in trace_func_demo.rb/7 set_encoding IO
+c-return in trace_func_demo.rb/7 set_encoding IO
+c-call in trace_func_demo.rb/7 set_encoding IO
+c-return in trace_func_demo.rb/7 set_encoding IO
+line in /Users/russolsen/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/date.rb/3  

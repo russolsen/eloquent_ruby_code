@@ -1,0 +1,1 @@
+require '../code/doc3'

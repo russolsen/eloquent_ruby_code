@@ -1,0 +1,5 @@
+require '../utils/tasks.rb'
+
+CLEAN.include(%w{choc.txt  donuts.txt  pi4.txt})
+CLEAN.include(%w{sorted_chars.txt  with_arg.txt resolv.txt})
+

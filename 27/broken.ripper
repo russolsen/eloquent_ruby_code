@@ -1,0 +1,7 @@
+# Error: Note the missing do on the first line... 
+
+on_path( '/document/author' ) |author| 
+  author.text = 'Tolkien' 
+end 
+
+after { |doc| puts doc } 

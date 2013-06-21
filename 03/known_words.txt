@@ -1,0 +1,10 @@
+find_all
+sort
+sort!
+!
+push
+pop
+delete
+shift
+'mom'
+SpecializedCollectionOfStuff

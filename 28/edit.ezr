@@ -1,0 +1,3 @@
+delete /document/published
+replace /document/author Tolkien
+print_document

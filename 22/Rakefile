@@ -1,0 +1,4 @@
+require '../utils/tasks.rb'
+
+CLEAN.include(%w{hare.txt  to_s.txt})
+

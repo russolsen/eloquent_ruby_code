@@ -1,0 +1,4 @@
+{"super-hero"=>
+  [{"name"=>["Spiderman"], "origin"=>["Radioactive Spider"]},
+   {"name"=>["Hulk"], "origin"=>["Gamma Rays"]},
+   {"name"=>["Reed Richards"], "origin"=>["Cosmic Rays"]}]}

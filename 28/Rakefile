@@ -1,0 +1,13 @@
+
+Targets = %w{ fellowship.xml spec out.odt}
+
+require '../utils/tasks.rb'
+
+CLEAN.include('fellowship.xml')
+
+
+file 'fellowship.xml' do |f|
+  cp '../27/fellowship.xml', '.'
+end
+
+task :init => 'fellowship.xml'

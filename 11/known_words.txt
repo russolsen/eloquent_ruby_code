@@ -1,0 +1,8 @@
+foo
+and
+Float
+Vector
+Matrix
+Set
+Fixnum
+sprintf

@@ -1,0 +1,69 @@
+
+CLASS_HEADER="class Document"
+CLASS_END = "end"
+
+DOCS = %w{ doc1.rb doc2.rb doc3.rb doc4.rb }
+BITS = %w{ doc_access.rb doc_init.rb doc_words.rb doc_word_count.rb doc_avg_word_len.rb}
+
+task :default => DOCS
+
+task :clean do |t|
+  rm_f DOCS
+end
+
+def nl(f)
+  f.puts
+end
+
+file 'doc1.rb' => BITS do |t|
+  File.open( "doc1.rb", 'w' ) do |f|
+    f.puts CLASS_HEADER
+    f.puts File.read( 'doc_access.rb')
+    nl(f)
+    f.puts File.read( 'doc_init.rb')
+    f.puts CLASS_END
+  end
+end
+
+file 'doc2.rb' => BITS  do |t|
+  File.open( "doc2.rb", 'w' ) do |f|
+    f.puts CLASS_HEADER
+    f.puts File.read( 'doc_access.rb')
+    nl(f)
+    f.puts File.read( 'doc_init.rb')
+    nl(f)
+    f.puts File.read( 'doc_words.rb')
+    f.puts CLASS_END
+  end
+end
+
+file 'doc3.rb' => BITS  do |t|
+  File.open( "doc3.rb", 'w' ) do |f|
+    f.puts CLASS_HEADER
+    f.puts File.read( 'doc_access.rb')
+    nl(f)
+    f.puts File.read( 'doc_init.rb')
+    nl(f)
+    f.puts File.read( 'doc_words.rb')
+    nl(f)
+    f.puts File.read( 'doc_word_count.rb')
+    f.puts CLASS_END
+  end
+end
+
+file 'doc4.rb' => BITS  do |t|
+  File.open( "doc4.rb", 'w' ) do |f|
+    f.puts CLASS_HEADER
+    f.puts File.read( 'doc_access.rb')
+    nl(f)
+    f.puts File.read( 'doc_init.rb')
+    nl(f)
+    f.puts File.read( 'doc_words.rb')
+    nl(f)
+    f.puts File.read( 'doc_word_count.rb')
+    nl(f)
+    f.puts File.read( 'doc_avg_word_len.rb')
+    f.puts CLASS_END
+  end
+end
+

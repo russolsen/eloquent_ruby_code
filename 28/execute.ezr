@@ -1,0 +1,1 @@
+execute '/document/author' 'puts "the author is #{el.text}"'

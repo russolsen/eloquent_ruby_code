@@ -1,0 +1,3 @@
+[:title, "2001"]
+[:genre, "sci fi"]
+[:rating, 10]

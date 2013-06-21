@@ -1,0 +1,9 @@
+assert
+assert_equal
+assert_nil
+assert_not_equal
+assert_not_nil
+test_that_it_works
+test_number_four
+teardown
+after

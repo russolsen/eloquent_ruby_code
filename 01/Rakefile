@@ -1,0 +1,27 @@
+
+Targets = %w{ messy_doc.rb spec out.odt}
+
+require '../utils/tasks.rb'
+
+CLEAN.include('messy_doc.rb')
+
+
+file 'messy_doc.rb' do |f|
+  code = File.read( '../code/doc3.rb' )
+  code = code.gsub( /  /, "\t" )
+  new_code = ''
+  count = 1
+  code.each_char do |ch|
+    unless ch == "\t"
+      new_code << ch
+    else
+      if (count % 2) == 0
+        new_code << '    '
+      else
+        new_code << '  '
+      end
+    end
+    count += 1
+  end
+  File.open( 'messy_doc.rb', 'w') {|f| f.print(new_code)}
+end

@@ -1,0 +1,5 @@
+require '../utils/tasks.rb'
+
+CLEAN.include(%w{hello.txt  junk.txt  lessempty.txt  second.txt  self.txt})
+CLEAN.include(%w{foo.rb})
+
