@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem 'rake'
 gem 'rspec'
 gem 'xml-simple'
 gem 'shoulda'
