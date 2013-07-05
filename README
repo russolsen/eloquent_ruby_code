@@ -24,3 +24,10 @@ and run:
     rspec -I . <the file>
 
 
+* Note that the `Rakefile`s run `rspec` over and over, once
+for each spec file. This is generally *not* what you would
+do in a normal Ruby project - normally you would run everything
+in a directory in one swoop: `rspec .`. The thing is that many
+of the examples from the book will construct a class and then
+change it and then change it again. This is great for explaining
+but means that you have to carefully isolate each example.
