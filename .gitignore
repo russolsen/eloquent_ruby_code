@@ -3,3 +3,9 @@
 *.rbc
 .bundle
 .config
+20/trace.txt
+07/about_me.txt
+07/def_to_s.txt
+09/run_spec.txt
+28/example.erb.out
+28/example.html

@@ -1,3 +1,0 @@
-I am #<Document:0x007fe823b627a0>
-My title is Ethics
-I have 4 words
