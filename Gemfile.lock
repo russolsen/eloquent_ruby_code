@@ -16,6 +16,7 @@ GEM
     mp3info (0.6.18)
     multi_json (1.7.7)
     polyglot (0.3.3)
+    power_assert (0.2.6)
     rake (10.1.0)
     rspec (2.13.0)
       rspec-core (~> 2.13.0)
@@ -31,6 +32,8 @@ GEM
     shoulda-context (1.1.4)
     shoulda-matchers (2.2.0)
       activesupport (>= 3.0.0)
+    test-unit (3.1.5)
+      power_assert
     text (1.2.1)
     thread_safe (0.1.0)
       atomic
@@ -50,6 +53,10 @@ DEPENDENCIES
   rake
   rspec
   shoulda
+  test-unit
   text
   treetop
   xml-simple
+
+BUNDLED WITH
+   1.13.7
