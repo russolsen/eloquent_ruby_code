@@ -5,6 +5,8 @@ This is the source code from Russ Olsen's book Eloquent Ruby.
 In this repo you will find all of the source code from the
 book, organized by chapters.
 
+The code has been updated and tested with Ruby 2.3.3p222.
+
 Because the code here was written to be included in a book,
 it is organized a little differently than the garden variety
 Ruby project:
