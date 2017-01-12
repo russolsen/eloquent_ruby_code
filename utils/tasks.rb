@@ -15,4 +15,6 @@ task :init
 
 task :default => %w{init spec}
 
-
+task :irb do
+  sh "irb -I ."
+end
